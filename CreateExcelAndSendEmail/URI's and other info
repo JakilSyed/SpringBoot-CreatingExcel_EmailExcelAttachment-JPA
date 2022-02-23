@@ -1,0 +1,29 @@
+
+This project fetches the data from database and created the excel file. Then sends the excel as attachment. 
+
+All the mail properties(to,from,cc,subject etc.) are mentioned in the properties file.
+
+
+Insert the below records in DB
+insert into tutorials (id,description,published,title)
+values
+(1,"Spring Boot Tut#1",1,"Spring Boot"),
+(2,"Java Tutorial",1,"Java"),
+(3,"Spring Data Tut#1",0,"Spring Data"),
+(4,"My Sql Database Tutorial",0,"My SQL"),
+(5,"Microservices Tutorial",1,"Microservices"),
+(6,"Hibernate Tutorial",0,"Hibernate"),
+(7,"Rest API Tutorial",0,"Rest API")
+
+
+
+Best Useful links:-
+https://www.codejava.net/java-ee/javamail/send-e-mail-with-attachment-in-java
+
+https://www.codegrepper.com/code-examples/java/sending+a+excel+in+an+attachment+in+email+java
+
+https://habr.com/en/post/439176/
+
+
+To download the Excel through rest API:- 
+https://www.bezkoder.com/spring-boot-download-excel-file/

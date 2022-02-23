@@ -1,0 +1,39 @@
+server.port: 8081
+
+#DB configuration driver/username/pass/
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/student_schema
+    username: root
+    password: password
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+#Below properties are used in Email Sender class and other class. we can change the hierarchy as per our convinience.
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: syedjakil@gmail.com
+    password: ezyupuiyughjk
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+                    
+mail:
+  from: syedjakil@gmail.com
+  to: syedjakil@gmail.com
+  cc: syedjakil@gmail.com
+  subject: This is subject. Thanks and Regards, Jakil
+  body: This is mail Body text.
+  
+  
+  
+  
+  
